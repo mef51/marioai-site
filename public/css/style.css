@@ -28,4 +28,15 @@
     background-image: url("../img/mario-bg.jpg");
     background-size: auto 100%;
     background-position: center;
+    
+    border-radius: 0;
+}
+
+.well-round, .well-round .title {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.well .title {
+    background-color: #31363A;
 }
